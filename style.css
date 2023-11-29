@@ -1,0 +1,22 @@
+html {
+  background-color: #000;
+  color: #e1e1e1;
+}
+
+body {
+  font: 24px/1.5em sans-serif;
+}
+
+.main {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+p, ul {
+  margin: 1rem 0 0;
+}
+
+h1,h2,h3 {
+  font-family: serif;
+  margin: 2.5rem 0 0;
+}
