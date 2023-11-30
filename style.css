@@ -10,6 +10,7 @@ body {
 .main {
   max-width: 860px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 p, ul {
@@ -19,4 +20,8 @@ p, ul {
 h1,h2,h3 {
   font-family: serif;
   margin: 2.5rem 0 0;
+}
+
+h1 {
+  line-height: 3rem;
 }
