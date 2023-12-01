@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font: 24px/1.6em 'Crimson Text', serif;
+  font: 24px/1.5em 'Crimson Text', serif;
 }
 
 .main {
@@ -15,6 +15,14 @@ body {
 
 p, ul {
   margin: 1rem 0 0;
+}
+
+p + p {
+  margin-top: 1.5rem;
+}
+
+li {
+  margin-top: 0.5rem;
 }
 
 strong {
@@ -43,7 +51,7 @@ h3 {
 
 hr {
   margin: 2.5rem 0;
-  opacity: 0.15;
+  border: 1px solid #17252b;
 }
 
 a {
