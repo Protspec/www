@@ -10,7 +10,7 @@ body {
 .main {
   max-width: 860px;
   margin: 0 auto;
-  padding: 5rem 2.5rem 2.5rem;
+  padding: 5rem 2.5rem;
 }
 
 @media only screen
@@ -67,7 +67,9 @@ a {
 
 .cta,.wip {
   display: inline-block;
-  margin: 1rem 0 0;
+  margin: 2.5rem 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
 }
 
 .cta {
@@ -80,4 +82,8 @@ a {
 
 .cta:hover {
   text-decoration: underline;
+}
+
+.cta-wrap {
+  text-align: center;
 }
