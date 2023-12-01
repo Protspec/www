@@ -4,24 +4,52 @@ html {
 }
 
 body {
-  font: 24px/1.5em sans-serif;
+  font: 24px/1.6em 'Crimson Text', serif;
 }
 
 .main {
   max-width: 860px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 2.5rem;
 }
 
 p, ul {
   margin: 1rem 0 0;
 }
 
+strong {
+  font-weight: 600;
+}
+
 h1,h2,h3 {
-  font-family: serif;
   margin: 2.5rem 0 0;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-  line-height: 3rem;
+  line-height: 4rem;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+hr {
+  margin: 2.5rem 0;
+  opacity: 0.15;
+}
+
+a {
+  color: #e1e1e1;
+}
+
+.cta {
+  display: inline-block;
+  padding: 2.5rem 0 0;
 }
