@@ -1,5 +1,5 @@
 html {
-  background-color: #000;
+  background-color: #0a1114;
   color: #e1e1e1;
 }
 
@@ -28,7 +28,7 @@ p, ul {
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h1,h2,h3 {
@@ -60,6 +60,10 @@ a {
   color: #e1e1e1;
 }
 
+.highlight {
+  color: #ed2e15;
+}
+
 .primer {
   font-size: 1.75rem;
   max-width: 700px;
@@ -76,8 +80,9 @@ a {
   padding: 0.25rem 1rem;
   text-decoration: none;
   font-weight: 600;
-  border-radius: 8px;
-  background-color: #222;
+  border: 2px solid #ed2e15;
+  border-radius: 6px;
+  background-color: transparent;
 }
 
 .cta:hover {
