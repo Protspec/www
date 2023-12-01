@@ -10,7 +10,17 @@ body {
 .main {
   max-width: 860px;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding: 5rem 2.5rem 2.5rem;
+}
+
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-width: 960px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .main {
+    padding: 1rem;
+  }
 }
 
 p, ul {
@@ -28,6 +38,7 @@ h1,h2,h3 {
 }
 
 h1 {
+  margin-top: 0;
   line-height: 4rem;
   font-size: 3rem;
 }
