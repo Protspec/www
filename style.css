@@ -49,7 +49,24 @@ a {
   color: #e1e1e1;
 }
 
-.cta {
+.primer {
+  font-size: 1.75rem;
+  max-width: 700px;
+}
+
+.cta,.wip {
   display: inline-block;
-  padding: 2.5rem 0 0;
+  margin: 1rem 0 0;
+}
+
+.cta {
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: #222;
+}
+
+.cta:hover {
+  text-decoration: underline;
 }
