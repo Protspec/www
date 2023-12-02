@@ -13,8 +13,8 @@ body {
 }
 
 .protspec-logo {
-  background: url("protspec-logo.svg") no-repeat;
-  height: 36px;
+  background: url("protspec-logo.svg") center no-repeat;
+  height: 38px;
   width: 161px;
 }
 
