@@ -19,9 +19,9 @@ body {
 }
 
 .bulwark-logo {
-  background: url("bulwark-logo.svg") center no-repeat;
+  background: url("bulwark-logo.svg") no-repeat;
   height: 36px;
-  width: 210px;
+  width: 216px;
 }
 
 .main {
