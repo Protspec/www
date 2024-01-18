@@ -1,5 +1,5 @@
 html {
-  background-color: #0c0000;
+  background-color: #0C0000;
   color: #e1e1e1;
 }
 
@@ -22,6 +22,20 @@ body {
   background: url("bulwark-logo.svg") no-repeat;
   height: 36px;
   width: 216px;
+}
+
+.bulwark-header {
+  text-align: center;
+  position: relative;
+  margin-bottom: -250px;
+  z-index: -1;
+}
+
+.bulwark-keyart {
+  width: 100%;
+  max-width: 420px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .main {
@@ -128,5 +142,9 @@ a {
 
   .main {
     padding: 1rem;
+  }
+
+  .bulwark-header {
+    margin-bottom: -210px;
   }
 }
