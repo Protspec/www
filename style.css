@@ -107,7 +107,7 @@ a {
 }
 
 .cta {
-  padding: 0.25rem 1rem;
+  padding: 0 1rem;
   text-decoration: none;
   font-weight: 600;
   border: 2px solid #ed2e15;
@@ -120,6 +120,7 @@ a {
 }
 
 .cta-wrap {
+  padding: 0.25rem 0;
   text-align: center;
 }
 
