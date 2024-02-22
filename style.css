@@ -27,7 +27,7 @@ body {
 .bulwark-header {
   text-align: center;
   position: relative;
-  margin-bottom: -250px;
+  margin-bottom: -170px;
   z-index: -1;
 }
 
@@ -146,6 +146,6 @@ a {
   }
 
   .bulwark-header {
-    margin-bottom: -210px;
+    margin-bottom: -140px;
   }
 }
